@@ -1,0 +1,6 @@
+version: '2'
+services:
+ struts2:
+   image: $ECR_REPOSITORY:$CONTAINER_NAME
+   ports:
+    - "8080:8080"
