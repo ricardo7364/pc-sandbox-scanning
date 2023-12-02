@@ -15,11 +15,11 @@ RUN apt-get update && apt-get upgrade -y && apt-get install \
 
 # Malware start
 
-RUN mkdir /home/app
-WORKDIR /home/app
+# RUN mkdir /home/app
+# WORKDIR /home/app
 
-COPY entrypoint.sh /home/app/entrypoint.sh
-ENTRYPOINT ["sh","entrypoint.sh"]
+# COPY entrypoint.sh /home/app/entrypoint.sh
+# ENTRYPOINT ["sh","entrypoint.sh"]
 
 # Malware end
 
